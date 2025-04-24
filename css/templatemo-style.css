@@ -149,7 +149,7 @@ a {
     transition: all 0.3s ease; 
 }
     a:hover {
-        color: #0e462b; /* Couleur boutons hovered */
+        color: #338053; /* Couleur boutons hovered */
     }
 .container-fluid { max-width: 1770px; }
 .tm-container-small { max-width: 1050px; }
