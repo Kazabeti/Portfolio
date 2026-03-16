@@ -30,7 +30,8 @@
 
 <body>
 
-	<div class="tm-hero d-flex justify-content-center align-items-center" data-parallax="scroll" data-image-src="img/hero2.png">
+	<div class="tm-hero d-flex justify-content-center align-items-center" data-parallax="scroll"
+		data-image-src="img/hero2.png">
 	</div>
 
 	<header id="fh5co-header" role="banner">
@@ -51,10 +52,12 @@
 
 	<div class="page-content">
 
-		<div style="background-color :lightgray; padding: 40px 40px 40px 40px;">
-				<h4 style="text-align:center"><a href="mailto:info@domain.com">etienne.cazabet@gmail.com</a></h4>
-				<h4 style="text-align:center"><a href="https://www.linkedin.com/in/etienne-cazabet-690200290">LinkedIn </a></h4>
-				<h4 style="text-align:center"><a href="tel:+33787663592">+337.87.66.35.92</a></h4>
+		<div style="background-color :#BCD2F5; padding: 40px 40px 40px 40px;">
+			<h4 style="text-align:center"><a href="mailto:info@domain.com"
+					style="color :#3E60AB">etienne.cazabet@gmail.com</a></h4>
+			<h4 style="text-align:center"><a href="https://www.linkedin.com/in/etienne-cazabet-690200290"
+					style="color :#3E60AB">LinkedIn </a></h4>
+			<h4 style="text-align:center"><a href="tel:+33787663592" style="color : #3E60AB">+337.87.66.35.92</a></h4>
 		</div>
 	</div>
 
@@ -66,21 +69,15 @@
 
 	<!-- END .container-fluid -->
 
-	<footer id="fh5co-footer" role="contentinfo">
+	<div id="footer"></div>
 
-		<div class="container-fluid">
-			<div class="footer-content">
-				<small> Etienne Cazabet </small>
-				<div class="social">
-						<a href="mailto:etienne.cazabet@gmail.com"><i class="icon-mail"></i></a>
-						<a href="https://www.linkedin.com/in/etienne-cazabet-690200290"><i class="icon-linkedin3"></i></a>
-						<a href="https://lof-dogs.itch.io/"><i class="icon-game-controller"></i></a>
-</div>
-
-				<br /> <small> <a href="http://freehtml5.co/">Based on template by FreeHTML5.co</a></small>
-			</div>
-		</div>
-	</footer>
+	<script>
+		fetch("footer.html")
+			.then(response => response.text())
+			.then(data => {
+				document.getElementById("footer").innerHTML = data;
+			});
+	</script>
 
 	<!-- END #fh5co-footer -->
 	<!-- //////////////////////////// -->
@@ -94,9 +91,6 @@
 	<script src="js/main.js"></script>
 	<!-- jsPlugins -->
 	<script src="js/plugins.js"></script>
-
-
 </body>
 
 </html>
-
