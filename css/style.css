@@ -98,7 +98,7 @@ figure {
   font-size: 15px;
 }
 #fh5co-header nav ul li a {
-  color: #999999 !important;
+  color: #7d9ad8  !important;
   padding: 10px;
 }
 @media screen and (max-width: 480px) {
@@ -107,15 +107,15 @@ figure {
   }
 }
 #fh5co-header nav ul li a:hover, #fh5co-header nav ul li a:active, #fh5co-header nav ul li a:focus {
-  color: #000 !important;
+  color: #3E60AB !important;
   text-decoration: none;
   outline: none;
 }
 
-/* li class ="active", utilisé dans Menu */
+/* li class ="active", utilisï¿½ dans Menu */
 #fh5co-header nav ul li.active a {
     text-decoration: underline !important;
-    color: black !important;
+    color: #3E60AB !important;
 }
 
 /* Galerie Present-template */
@@ -128,7 +128,7 @@ figure {
 .fh5co-projects-feed .fh5co-project {
   float: left;
   margin: 20px 20px 20px;
-  width: 290px; /* Changé 
+  width: 290px; /* Changï¿½ 
 }
 @media screen and (max-width: 480px) {
   .fh5co-projects-feed .fh5co-project {
@@ -141,7 +141,7 @@ figure {
 }
 .fh5co-projects-feed .fh5co-project > a img {
   margin-bottom: 30px;
-  max-width:100%; /* Changé pour qu'il soit fit avec le contenant 
+  max-width:100%; /* Changï¿½ pour qu'il soit fit avec le contenant 
 }
 .fh5co-projects-feed .fh5co-project > a h2 {
   font-size: 14px;
@@ -193,6 +193,10 @@ figure {
         display: block;
     }
 
+        .page-content a img:hover {
+         filter: brightness(0.7);
+    }
+
 @media screen and (max-width: 768px) {
   .page-content {
     padding-left: 15px;
@@ -224,24 +228,24 @@ figure {
 #fh5co-footer {
   float: left;
   width: 100%;
-  background: #ebebeb;
+  background: #BCD2F5;
   padding-top: 20px;
   padding-bottom: 20px;
   text-align: center;
-  color: #999999;
+  color: #3E60AB;
 }
 #fh5co-footer a {
-  color: #bfbfbf;
+  color: #7d9ad8 ;
 }
 #fh5co-footer a:hover, #fh5co-footer a:active, #fh5co-footer a:focus {
-  color: #000 !important;
+  color: #1b0e53 !important;
 }
 #fh5co-footer .social {
   margin-top: 20px;
 }
 #fh5co-footer .social a {
   padding: 10px;
-  color: #999999 !important;
+  color: #3E60AB !important;
 }
 @media screen and (max-width: 480px) {
   #fh5co-footer .social a {
@@ -249,7 +253,7 @@ figure {
   }
 }
 #fh5co-footer .social a:hover, #fh5co-footer .social a:active, #fh5co-footer .social a:focus {
-  color: #000 !important;
+  color: #1b0e53 !important;
 }
 
 .square {
@@ -335,7 +339,7 @@ figure {
 
 /* From Templatemo-style.css */
 
-.tm-hero { /* Bannière image crop */
+.tm-hero { /* Banniï¿½re image crop */
     min-height: 200px;
     background: transparent;
 }
